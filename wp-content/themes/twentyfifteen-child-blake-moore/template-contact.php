@@ -6,13 +6,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-		<?php
-			if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
-				// Include the featured content template.
-				get_template_part( 'featured-content' );
-			}
-		?>
-						
+		<div class="contact-page">
 					<?php
 					// Start the loop.
 					while ( have_posts() ) : the_post(); ?>
@@ -57,6 +51,7 @@ get_header(); ?>
 						</form>
 					<?php endwhile;
 					?>
+		</div>
 	</main><!-- .site-main -->
 </div><!-- .content-area -->
 

@@ -6031,15 +6031,33 @@ p > video {
 /************************************
 NEW CUSTOM STYLES RELATED TO ARTISTS
 ************************************/
-.content-area {position:relative;background:#fff;}
-.artist-grid, .artist-page {
+.content-area {
+	position:relative;
+	background:#fff;
+}
+.artist-grid, .artist-page, .contact-page {
     position: relative;
     background:#fff;
     padding:40px;
 }
-.artist-grid {    min-height:800px;}
-.artist-page {padding:40px;margin-bottom:50px;}
-.artist {width:50%;float:left;}
-h2.huge {font-size:250%;}
-form header {padding:30px 0;}
-
+.artist-grid {
+	min-height:800px;
+}
+.artist-page {
+	padding:40px;
+	margin-bottom:50px;
+}
+.artist {
+	width:50%;
+	float:left;
+}
+h2.huge {
+	font-size:250%;
+}
+form header {
+	padding:30px 0;
+}
+.contact-page form {
+    max-width: 700px;
+    margin-bottom:100px;
+}
